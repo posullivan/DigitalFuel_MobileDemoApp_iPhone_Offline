@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		830A2CAD150DFA6D00F3E8D5 /* pumpimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 830A2CAC150DFA6D00F3E8D5 /* pumpimage.png */; };
+		831CD1961516E9DF008D08CF /* bp123.png in Resources */ = {isa = PBXBuildFile; fileRef = 831CD1951516E9DF008D08CF /* bp123.png */; };
+		831CD19E15172F8C008D08CF /* esso.png in Resources */ = {isa = PBXBuildFile; fileRef = 831CD19D15172F8C008D08CF /* esso.png */; };
+		831CD1A01517313A008D08CF /* Shell_logo_svg_full.png in Resources */ = {isa = PBXBuildFile; fileRef = 831CD19F1517313A008D08CF /* Shell_logo_svg_full.png */; };
 		838265E71505C6AC00738B43 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 838265E61505C6AC00738B43 /* UIKit.framework */; };
 		838265E91505C6AC00738B43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 838265E81505C6AC00738B43 /* Foundation.framework */; };
 		838265EB1505C6AC00738B43 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 838265EA1505C6AC00738B43 /* CoreGraphics.framework */; };
@@ -20,6 +24,43 @@
 		838266071505C6AC00738B43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 838265E81505C6AC00738B43 /* Foundation.framework */; };
 		8382660F1505C6AC00738B43 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8382660D1505C6AC00738B43 /* InfoPlist.strings */; };
 		838266121505C6AC00738B43 /* DemoPaymentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 838266111505C6AC00738B43 /* DemoPaymentTests.m */; };
+		838266221505DA1600738B43 /* Dashboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 838266201505DA1600738B43 /* Dashboard.m */; };
+		838266231505DA1600738B43 /* Dashboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 838266211505DA1600738B43 /* Dashboard.xib */; };
+		838266371506097E00738B43 /* TransactionHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = 838266351506097E00738B43 /* TransactionHistory.m */; };
+		838266381506097E00738B43 /* TransactionHistory.xib in Resources */ = {isa = PBXBuildFile; fileRef = 838266361506097E00738B43 /* TransactionHistory.xib */; };
+		838266471506317400738B43 /* TransactionDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 838266451506317400738B43 /* TransactionDetail.m */; };
+		838266481506317400738B43 /* TransactionDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = 838266461506317400738B43 /* TransactionDetail.xib */; };
+		8382665215070BED00738B43 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8382665115070BED00738B43 /* CustomCell.m */; };
+		838266541507175D00738B43 /* demoCell.png in Resources */ = {isa = PBXBuildFile; fileRef = 838266531507175D00738B43 /* demoCell.png */; };
+		8382665615071FEF00738B43 /* Detail.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8382665515071FEF00738B43 /* Detail.plist */; };
+		8382665E150736B600738B43 /* PayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8382665C150736B500738B43 /* PayView.m */; };
+		8382665F150736B600738B43 /* PayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8382665D150736B500738B43 /* PayView.xib */; };
+		83826663150741CF00738B43 /* PaySearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 83826661150741CE00738B43 /* PaySearch.m */; };
+		83826664150741CF00738B43 /* PaySearch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83826662150741CF00738B43 /* PaySearch.xib */; };
+		83843387150775140082F4D7 /* PumpDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 83843385150775130082F4D7 /* PumpDetail.m */; };
+		83843388150775140082F4D7 /* PumpDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83843386150775140082F4D7 /* PumpDetail.xib */; };
+		8810FCDD15134A1E002ECE99 /* backGround@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8810FCD715134A1E002ECE99 /* backGround@2x.png */; };
+		8810FCDE15134A1E002ECE99 /* btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 8810FCD815134A1E002ECE99 /* btn.png */; };
+		8810FCDF15134A1E002ECE99 /* btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8810FCD915134A1E002ECE99 /* btn@2x.png */; };
+		8810FCE015134A1E002ECE99 /* backGround.png in Resources */ = {isa = PBXBuildFile; fileRef = 8810FCDA15134A1E002ECE99 /* backGround.png */; };
+		884FF79B151C9E9100131A47 /* history.png in Resources */ = {isa = PBXBuildFile; fileRef = 884FF793151C9E9000131A47 /* history.png */; };
+		884FF79C151C9E9100131A47 /* historyPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 884FF794151C9E9000131A47 /* historyPressed.png */; };
+		884FF79D151C9E9100131A47 /* pay.png in Resources */ = {isa = PBXBuildFile; fileRef = 884FF795151C9E9000131A47 /* pay.png */; };
+		884FF79E151C9E9100131A47 /* payPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 884FF796151C9E9000131A47 /* payPressed.png */; };
+		884FF79F151C9E9100131A47 /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 884FF797151C9E9000131A47 /* profile.png */; };
+		884FF7A0151C9E9100131A47 /* profilePressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 884FF798151C9E9000131A47 /* profilePressed.png */; };
+		884FF7A1151C9E9100131A47 /* signout.png in Resources */ = {isa = PBXBuildFile; fileRef = 884FF799151C9E9100131A47 /* signout.png */; };
+		884FF7A2151C9E9100131A47 /* signoutPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 884FF79A151C9E9100131A47 /* signoutPressed.png */; };
+		88B16CA81522E1ED0065FC3F /* main@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88B16CA61522E1ED0065FC3F /* main@2x.png */; };
+		88B16CA91522E1ED0065FC3F /* main.png in Resources */ = {isa = PBXBuildFile; fileRef = 88B16CA71522E1ED0065FC3F /* main.png */; };
+		88EF62B715297290004CABE5 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 88EF62AF15297290004CABE5 /* Icon-72.png */; };
+		88EF62B815297290004CABE5 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 88EF62B015297290004CABE5 /* Icon-Small-50.png */; };
+		88EF62B915297290004CABE5 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 88EF62B115297290004CABE5 /* Icon-Small.png */; };
+		88EF62BA15297290004CABE5 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88EF62B215297290004CABE5 /* Icon-Small@2x.png */; };
+		88EF62BB15297290004CABE5 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 88EF62B315297290004CABE5 /* Icon.png */; };
+		88EF62BC15297290004CABE5 /* Icon.psd in Resources */ = {isa = PBXBuildFile; fileRef = 88EF62B415297290004CABE5 /* Icon.psd */; };
+		88EF62BD15297290004CABE5 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88EF62B515297290004CABE5 /* Icon@2x.png */; };
+		88EF62BE15297290004CABE5 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 88EF62B615297290004CABE5 /* iTunesArtwork.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,25 +74,73 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		830A2CAC150DFA6D00F3E8D5 /* pumpimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pumpimage.png; sourceTree = "<group>"; };
+		831CD1951516E9DF008D08CF /* bp123.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bp123.png; sourceTree = "<group>"; };
+		831CD19D15172F8C008D08CF /* esso.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = esso.png; sourceTree = "<group>"; };
+		831CD19F1517313A008D08CF /* Shell_logo_svg_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shell_logo_svg_full.png; sourceTree = "<group>"; };
 		838265E21505C6AC00738B43 /* DemoPayment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoPayment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		838265E61505C6AC00738B43 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		838265E81505C6AC00738B43 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		838265EA1505C6AC00738B43 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		838265EE1505C6AC00738B43 /* DemoPayment-Info.plist */ = {isa = PBXFileReference; path = "DemoPayment-Info.plist"; sourceTree = "<group>"; };
+		838265EE1505C6AC00738B43 /* DemoPayment-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DemoPayment-Info.plist"; sourceTree = "<group>"; };
 		838265F01505C6AC00738B43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		838265F21505C6AC00738B43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		838265F41505C6AC00738B43 /* DemoPayment-Prefix.pch */ = {isa = PBXFileReference; path = "DemoPayment-Prefix.pch"; sourceTree = "<group>"; };
-		838265F51505C6AC00738B43 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		838265F41505C6AC00738B43 /* DemoPayment-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoPayment-Prefix.pch"; sourceTree = "<group>"; };
+		838265F51505C6AC00738B43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		838265F61505C6AC00738B43 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		838265F81505C6AC00738B43 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		838265F81505C6AC00738B43 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		838265F91505C6AC00738B43 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		838265FC1505C6AC00738B43 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		838266031505C6AC00738B43 /* DemoPaymentTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoPaymentTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		838266041505C6AC00738B43 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		8382660C1505C6AC00738B43 /* DemoPaymentTests-Info.plist */ = {isa = PBXFileReference; path = "DemoPaymentTests-Info.plist"; sourceTree = "<group>"; };
+		8382660C1505C6AC00738B43 /* DemoPaymentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DemoPaymentTests-Info.plist"; sourceTree = "<group>"; };
 		8382660E1505C6AC00738B43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		838266101505C6AC00738B43 /* DemoPaymentTests.h */ = {isa = PBXFileReference; path = DemoPaymentTests.h; sourceTree = "<group>"; };
+		838266101505C6AC00738B43 /* DemoPaymentTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoPaymentTests.h; sourceTree = "<group>"; };
 		838266111505C6AC00738B43 /* DemoPaymentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoPaymentTests.m; sourceTree = "<group>"; };
+		8382661F1505DA1600738B43 /* Dashboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dashboard.h; sourceTree = "<group>"; };
+		838266201505DA1600738B43 /* Dashboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dashboard.m; sourceTree = "<group>"; };
+		838266211505DA1600738B43 /* Dashboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Dashboard.xib; sourceTree = "<group>"; };
+		838266341506097D00738B43 /* TransactionHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionHistory.h; sourceTree = "<group>"; };
+		838266351506097E00738B43 /* TransactionHistory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionHistory.m; sourceTree = "<group>"; };
+		838266361506097E00738B43 /* TransactionHistory.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransactionHistory.xib; sourceTree = "<group>"; };
+		838266441506317400738B43 /* TransactionDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionDetail.h; sourceTree = "<group>"; };
+		838266451506317400738B43 /* TransactionDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionDetail.m; sourceTree = "<group>"; };
+		838266461506317400738B43 /* TransactionDetail.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransactionDetail.xib; sourceTree = "<group>"; };
+		8382665015070BED00738B43 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		8382665115070BED00738B43 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		838266531507175D00738B43 /* demoCell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demoCell.png; sourceTree = "<group>"; };
+		8382665515071FEF00738B43 /* Detail.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Detail.plist; sourceTree = "<group>"; };
+		8382665B150736B500738B43 /* PayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayView.h; sourceTree = "<group>"; };
+		8382665C150736B500738B43 /* PayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayView.m; sourceTree = "<group>"; };
+		8382665D150736B500738B43 /* PayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PayView.xib; sourceTree = "<group>"; };
+		83826660150741CE00738B43 /* PaySearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaySearch.h; sourceTree = "<group>"; };
+		83826661150741CE00738B43 /* PaySearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaySearch.m; sourceTree = "<group>"; };
+		83826662150741CF00738B43 /* PaySearch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaySearch.xib; sourceTree = "<group>"; };
+		83843384150775130082F4D7 /* PumpDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PumpDetail.h; sourceTree = "<group>"; };
+		83843385150775130082F4D7 /* PumpDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PumpDetail.m; sourceTree = "<group>"; };
+		83843386150775140082F4D7 /* PumpDetail.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PumpDetail.xib; sourceTree = "<group>"; };
+		8810FCD715134A1E002ECE99 /* backGround@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backGround@2x.png"; sourceTree = "<group>"; };
+		8810FCD815134A1E002ECE99 /* btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn.png; sourceTree = "<group>"; };
+		8810FCD915134A1E002ECE99 /* btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn@2x.png"; sourceTree = "<group>"; };
+		8810FCDA15134A1E002ECE99 /* backGround.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backGround.png; sourceTree = "<group>"; };
+		884FF793151C9E9000131A47 /* history.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = history.png; sourceTree = "<group>"; };
+		884FF794151C9E9000131A47 /* historyPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = historyPressed.png; sourceTree = "<group>"; };
+		884FF795151C9E9000131A47 /* pay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pay.png; sourceTree = "<group>"; };
+		884FF796151C9E9000131A47 /* payPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = payPressed.png; sourceTree = "<group>"; };
+		884FF797151C9E9000131A47 /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
+		884FF798151C9E9000131A47 /* profilePressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profilePressed.png; sourceTree = "<group>"; };
+		884FF799151C9E9100131A47 /* signout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signout.png; sourceTree = "<group>"; };
+		884FF79A151C9E9100131A47 /* signoutPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signoutPressed.png; sourceTree = "<group>"; };
+		88B16CA61522E1ED0065FC3F /* main@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main@2x.png"; sourceTree = "<group>"; };
+		88B16CA71522E1ED0065FC3F /* main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main.png; sourceTree = "<group>"; };
+		88EF62AF15297290004CABE5 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		88EF62B015297290004CABE5 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		88EF62B115297290004CABE5 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		88EF62B215297290004CABE5 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		88EF62B315297290004CABE5 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		88EF62B415297290004CABE5 /* Icon.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = Icon.psd; sourceTree = "<group>"; };
+		88EF62B515297290004CABE5 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		88EF62B615297290004CABE5 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +170,11 @@
 		838265D71505C6AC00738B43 = {
 			isa = PBXGroup;
 			children = (
+				88EF62AE15297290004CABE5 /* Icons */,
+				8382665515071FEF00738B43 /* Detail.plist */,
+				8382665015070BED00738B43 /* CustomCell.h */,
+				8382665115070BED00738B43 /* CustomCell.m */,
+				8382663D1506290C00738B43 /* image */,
 				838265EC1505C6AC00738B43 /* DemoPayment */,
 				8382660A1505C6AC00738B43 /* DemoPaymentTests */,
 				838265E51505C6AC00738B43 /* Frameworks */,
@@ -116,6 +210,24 @@
 				838265F81505C6AC00738B43 /* ViewController.h */,
 				838265F91505C6AC00738B43 /* ViewController.m */,
 				838265FB1505C6AC00738B43 /* ViewController.xib */,
+				8382661F1505DA1600738B43 /* Dashboard.h */,
+				838266201505DA1600738B43 /* Dashboard.m */,
+				838266211505DA1600738B43 /* Dashboard.xib */,
+				838266341506097D00738B43 /* TransactionHistory.h */,
+				838266351506097E00738B43 /* TransactionHistory.m */,
+				838266361506097E00738B43 /* TransactionHistory.xib */,
+				838266441506317400738B43 /* TransactionDetail.h */,
+				838266451506317400738B43 /* TransactionDetail.m */,
+				838266461506317400738B43 /* TransactionDetail.xib */,
+				8382665B150736B500738B43 /* PayView.h */,
+				8382665C150736B500738B43 /* PayView.m */,
+				8382665D150736B500738B43 /* PayView.xib */,
+				83826660150741CE00738B43 /* PaySearch.h */,
+				83826661150741CE00738B43 /* PaySearch.m */,
+				83826662150741CF00738B43 /* PaySearch.xib */,
+				83843384150775130082F4D7 /* PumpDetail.h */,
+				83843385150775130082F4D7 /* PumpDetail.m */,
+				83843386150775140082F4D7 /* PumpDetail.xib */,
 				838265ED1505C6AC00738B43 /* Supporting Files */,
 			);
 			path = DemoPayment;
@@ -149,6 +261,47 @@
 				8382660D1505C6AC00738B43 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8382663D1506290C00738B43 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				88B16CA61522E1ED0065FC3F /* main@2x.png */,
+				88B16CA71522E1ED0065FC3F /* main.png */,
+				884FF793151C9E9000131A47 /* history.png */,
+				884FF794151C9E9000131A47 /* historyPressed.png */,
+				884FF795151C9E9000131A47 /* pay.png */,
+				884FF796151C9E9000131A47 /* payPressed.png */,
+				884FF797151C9E9000131A47 /* profile.png */,
+				884FF798151C9E9000131A47 /* profilePressed.png */,
+				884FF799151C9E9100131A47 /* signout.png */,
+				884FF79A151C9E9100131A47 /* signoutPressed.png */,
+				8810FCD715134A1E002ECE99 /* backGround@2x.png */,
+				8810FCD815134A1E002ECE99 /* btn.png */,
+				8810FCD915134A1E002ECE99 /* btn@2x.png */,
+				8810FCDA15134A1E002ECE99 /* backGround.png */,
+				831CD19F1517313A008D08CF /* Shell_logo_svg_full.png */,
+				831CD19D15172F8C008D08CF /* esso.png */,
+				831CD1951516E9DF008D08CF /* bp123.png */,
+				830A2CAC150DFA6D00F3E8D5 /* pumpimage.png */,
+				838266531507175D00738B43 /* demoCell.png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		88EF62AE15297290004CABE5 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				88EF62AF15297290004CABE5 /* Icon-72.png */,
+				88EF62B015297290004CABE5 /* Icon-Small-50.png */,
+				88EF62B115297290004CABE5 /* Icon-Small.png */,
+				88EF62B215297290004CABE5 /* Icon-Small@2x.png */,
+				88EF62B315297290004CABE5 /* Icon.png */,
+				88EF62B415297290004CABE5 /* Icon.psd */,
+				88EF62B515297290004CABE5 /* Icon@2x.png */,
+				88EF62B615297290004CABE5 /* iTunesArtwork.png */,
+			);
+			path = Icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,6 +377,40 @@
 			files = (
 				838265F11505C6AC00738B43 /* InfoPlist.strings in Resources */,
 				838265FD1505C6AC00738B43 /* ViewController.xib in Resources */,
+				838266231505DA1600738B43 /* Dashboard.xib in Resources */,
+				838266381506097E00738B43 /* TransactionHistory.xib in Resources */,
+				838266481506317400738B43 /* TransactionDetail.xib in Resources */,
+				838266541507175D00738B43 /* demoCell.png in Resources */,
+				8382665615071FEF00738B43 /* Detail.plist in Resources */,
+				8382665F150736B600738B43 /* PayView.xib in Resources */,
+				83826664150741CF00738B43 /* PaySearch.xib in Resources */,
+				83843388150775140082F4D7 /* PumpDetail.xib in Resources */,
+				830A2CAD150DFA6D00F3E8D5 /* pumpimage.png in Resources */,
+				8810FCDD15134A1E002ECE99 /* backGround@2x.png in Resources */,
+				8810FCDE15134A1E002ECE99 /* btn.png in Resources */,
+				8810FCDF15134A1E002ECE99 /* btn@2x.png in Resources */,
+				8810FCE015134A1E002ECE99 /* backGround.png in Resources */,
+				831CD1961516E9DF008D08CF /* bp123.png in Resources */,
+				831CD19E15172F8C008D08CF /* esso.png in Resources */,
+				831CD1A01517313A008D08CF /* Shell_logo_svg_full.png in Resources */,
+				884FF79B151C9E9100131A47 /* history.png in Resources */,
+				884FF79C151C9E9100131A47 /* historyPressed.png in Resources */,
+				884FF79D151C9E9100131A47 /* pay.png in Resources */,
+				884FF79E151C9E9100131A47 /* payPressed.png in Resources */,
+				884FF79F151C9E9100131A47 /* profile.png in Resources */,
+				884FF7A0151C9E9100131A47 /* profilePressed.png in Resources */,
+				884FF7A1151C9E9100131A47 /* signout.png in Resources */,
+				884FF7A2151C9E9100131A47 /* signoutPressed.png in Resources */,
+				88B16CA81522E1ED0065FC3F /* main@2x.png in Resources */,
+				88B16CA91522E1ED0065FC3F /* main.png in Resources */,
+				88EF62B715297290004CABE5 /* Icon-72.png in Resources */,
+				88EF62B815297290004CABE5 /* Icon-Small-50.png in Resources */,
+				88EF62B915297290004CABE5 /* Icon-Small.png in Resources */,
+				88EF62BA15297290004CABE5 /* Icon-Small@2x.png in Resources */,
+				88EF62BB15297290004CABE5 /* Icon.png in Resources */,
+				88EF62BC15297290004CABE5 /* Icon.psd in Resources */,
+				88EF62BD15297290004CABE5 /* Icon@2x.png in Resources */,
+				88EF62BE15297290004CABE5 /* iTunesArtwork.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +448,13 @@
 				838265F31505C6AC00738B43 /* main.m in Sources */,
 				838265F71505C6AC00738B43 /* AppDelegate.m in Sources */,
 				838265FA1505C6AC00738B43 /* ViewController.m in Sources */,
+				838266221505DA1600738B43 /* Dashboard.m in Sources */,
+				838266371506097E00738B43 /* TransactionHistory.m in Sources */,
+				838266471506317400738B43 /* TransactionDetail.m in Sources */,
+				8382665215070BED00738B43 /* CustomCell.m in Sources */,
+				8382665E150736B600738B43 /* PayView.m in Sources */,
+				83826663150741CF00738B43 /* PaySearch.m in Sources */,
+				83843387150775140082F4D7 /* PumpDetail.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,7 +510,9 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COMPRESS_PNG_FILES = NO;
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -330,7 +526,8 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -341,15 +538,18 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COMPRESS_PNG_FILES = NO;
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -358,10 +558,12 @@
 		838266161505C6AC00738B43 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DemoPayment/DemoPayment-Prefix.pch";
 				INFOPLIST_FILE = "DemoPayment/DemoPayment-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -369,10 +571,13 @@
 		838266171505C6AC00738B43 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DemoPayment/DemoPayment-Prefix.pch";
 				INFOPLIST_FILE = "DemoPayment/DemoPayment-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -430,6 +635,7 @@
 				838266171505C6AC00738B43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		838266181505C6AC00738B43 /* Build configuration list for PBXNativeTarget "DemoPaymentTests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +644,7 @@
 				8382661A1505C6AC00738B43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

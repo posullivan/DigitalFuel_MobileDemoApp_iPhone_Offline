@@ -20,7 +20,10 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
-    self.window.rootViewController = self.viewController;
+    
+     UINavigationController *navigationController = [[UINavigationController alloc]initWithRootViewController:self.viewController];
+    navigationController.navigationBar.tintColor=[UIColor blackColor];
+    self.window.rootViewController = navigationController;
     [self.window makeKeyAndVisible];
     return YES;
 }
